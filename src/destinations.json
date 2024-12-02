@@ -1,0 +1,453 @@
+[
+    {
+        "name": "Bali, Indonesia",
+        "weather": "Warm",
+        "budget": "Medium",
+        "activities": [
+            "Relaxation",
+            "Culture",
+            "Adventure"
+        ],
+        "region": "Asia",
+        "description": "A tropical paradise with beautiful beaches and rich cultural heritage.",
+        "best_time": "April to October",
+        "image": "https://example.com/bali.jpg",
+        "fun_fact": "Bali has over 10,000 temples!",
+        "average_cost": 1500
+    },
+    {
+        "name": "Reykjavik, Iceland",
+        "weather": "Cool",
+        "budget": "High",
+        "activities": [
+            "Adventure",
+            "Culture"
+        ],
+        "region": "Europe",
+        "description": "Home to glaciers, geysers, and the Northern Lights.",
+        "best_time": "September to March",
+        "image": "https://example.com/reykjavik.jpg",
+        "fun_fact": "Iceland uses geothermal energy for nearly all electricity.",
+        "average_cost": 3000
+    },
+    {
+        "name": "Kyoto, Japan",
+        "weather": "Cool",
+        "budget": "Medium",
+        "activities": [
+            "Culture",
+            "Relaxation"
+        ],
+        "region": "Asia",
+        "description": "Famous for its classical Buddhist temples and gardens.",
+        "best_time": "March to May",
+        "image": "https://example.com/kyoto.jpg",
+        "fun_fact": "Kyoto has over 1,600 Buddhist temples!",
+        "average_cost": 2500
+    },
+    {
+        "name": "Maui, Hawaii",
+        "weather": "Warm",
+        "budget": "High",
+        "activities": [
+            "Relaxation",
+            "Adventure"
+        ],
+        "region": "North America",
+        "description": "Stunning beaches, waterfalls, and outdoor adventures await.",
+        "best_time": "April to November",
+        "image": "https://example.com/maui.jpg",
+        "fun_fact": "Maui is known for its world-famous sunrise at Haleakal\u0101.",
+        "average_cost": 3500
+    },
+    {
+        "name": "Destination 5",
+        "weather": "Warm",
+        "budget": "Low",
+        "activities": [
+            "Adventure",
+            "Relaxation"
+        ],
+        "region": "Asia",
+        "description": "Description for Destination 5.",
+        "best_time": "Month 1 to Month 6",
+        "image": "https://example.com/destination_5.jpg",
+        "fun_fact": "Fun fact about Destination 5.",
+        "average_cost": 1000
+    },
+    {
+        "name": "Destination 6",
+        "weather": "Cool",
+        "budget": "Medium",
+        "activities": [
+            "Relaxation",
+            "Culture"
+        ],
+        "region": "Europe",
+        "description": "Description for Destination 6.",
+        "best_time": "Month 2 to Month 7",
+        "image": "https://example.com/destination_6.jpg",
+        "fun_fact": "Fun fact about Destination 6.",
+        "average_cost": 1500
+    },
+    {
+        "name": "Destination 7",
+        "weather": "Snowy",
+        "budget": "High",
+        "activities": [
+            "Culture",
+            "Adventure"
+        ],
+        "region": "North America",
+        "description": "Description for Destination 7.",
+        "best_time": "Month 3 to Month 8",
+        "image": "https://example.com/destination_7.jpg",
+        "fun_fact": "Fun fact about Destination 7.",
+        "average_cost": 2000
+    },
+    {
+        "name": "Destination 8",
+        "weather": "Warm",
+        "budget": "Low",
+        "activities": [
+            "Adventure",
+            "Relaxation"
+        ],
+        "region": "South America",
+        "description": "Description for Destination 8.",
+        "best_time": "Month 4 to Month 9",
+        "image": "https://example.com/destination_8.jpg",
+        "fun_fact": "Fun fact about Destination 8.",
+        "average_cost": 1000
+    },
+    {
+        "name": "Destination 9",
+        "weather": "Cool",
+        "budget": "Medium",
+        "activities": [
+            "Relaxation",
+            "Culture"
+        ],
+        "region": "Africa",
+        "description": "Description for Destination 9.",
+        "best_time": "Month 5 to Month 10",
+        "image": "https://example.com/destination_9.jpg",
+        "fun_fact": "Fun fact about Destination 9.",
+        "average_cost": 1500
+    },
+    {
+        "name": "Destination 10",
+        "weather": "Snowy",
+        "budget": "High",
+        "activities": [
+            "Culture",
+            "Adventure"
+        ],
+        "region": "Oceania",
+        "description": "Description for Destination 10.",
+        "best_time": "Month 6 to Month 11",
+        "image": "https://example.com/destination_10.jpg",
+        "fun_fact": "Fun fact about Destination 10.",
+        "average_cost": 2000
+    },
+    {
+        "name": "Destination 11",
+        "weather": "Warm",
+        "budget": "Low",
+        "activities": [
+            "Adventure",
+            "Relaxation"
+        ],
+        "region": "Asia",
+        "description": "Description for Destination 11.",
+        "best_time": "Month 7 to Month 12",
+        "image": "https://example.com/destination_11.jpg",
+        "fun_fact": "Fun fact about Destination 11.",
+        "average_cost": 1000
+    },
+    {
+        "name": "Destination 12",
+        "weather": "Cool",
+        "budget": "Medium",
+        "activities": [
+            "Relaxation",
+            "Culture"
+        ],
+        "region": "Europe",
+        "description": "Description for Destination 12.",
+        "best_time": "Month 8 to Month 1",
+        "image": "https://example.com/destination_12.jpg",
+        "fun_fact": "Fun fact about Destination 12.",
+        "average_cost": 1500
+    },
+    {
+        "name": "Destination 13",
+        "weather": "Snowy",
+        "budget": "High",
+        "activities": [
+            "Culture",
+            "Adventure"
+        ],
+        "region": "North America",
+        "description": "Description for Destination 13.",
+        "best_time": "Month 9 to Month 2",
+        "image": "https://example.com/destination_13.jpg",
+        "fun_fact": "Fun fact about Destination 13.",
+        "average_cost": 2000
+    },
+    {
+        "name": "Destination 14",
+        "weather": "Warm",
+        "budget": "Low",
+        "activities": [
+            "Adventure",
+            "Relaxation"
+        ],
+        "region": "South America",
+        "description": "Description for Destination 14.",
+        "best_time": "Month 10 to Month 3",
+        "image": "https://example.com/destination_14.jpg",
+        "fun_fact": "Fun fact about Destination 14.",
+        "average_cost": 1000
+    },
+    {
+        "name": "Destination 15",
+        "weather": "Cool",
+        "budget": "Medium",
+        "activities": [
+            "Relaxation",
+            "Culture"
+        ],
+        "region": "Africa",
+        "description": "Description for Destination 15.",
+        "best_time": "Month 11 to Month 4",
+        "image": "https://example.com/destination_15.jpg",
+        "fun_fact": "Fun fact about Destination 15.",
+        "average_cost": 1500
+    },
+    {
+        "name": "Destination 16",
+        "weather": "Snowy",
+        "budget": "High",
+        "activities": [
+            "Culture",
+            "Adventure"
+        ],
+        "region": "Oceania",
+        "description": "Description for Destination 16.",
+        "best_time": "Month 12 to Month 5",
+        "image": "https://example.com/destination_16.jpg",
+        "fun_fact": "Fun fact about Destination 16.",
+        "average_cost": 2000
+    },
+    {
+        "name": "Destination 17",
+        "weather": "Warm",
+        "budget": "Low",
+        "activities": [
+            "Adventure",
+            "Relaxation"
+        ],
+        "region": "Asia",
+        "description": "Description for Destination 17.",
+        "best_time": "Month 1 to Month 6",
+        "image": "https://example.com/destination_17.jpg",
+        "fun_fact": "Fun fact about Destination 17.",
+        "average_cost": 1000
+    },
+    {
+        "name": "Destination 18",
+        "weather": "Cool",
+        "budget": "Medium",
+        "activities": [
+            "Relaxation",
+            "Culture"
+        ],
+        "region": "Europe",
+        "description": "Description for Destination 18.",
+        "best_time": "Month 2 to Month 7",
+        "image": "https://example.com/destination_18.jpg",
+        "fun_fact": "Fun fact about Destination 18.",
+        "average_cost": 1500
+    },
+    {
+        "name": "Destination 19",
+        "weather": "Snowy",
+        "budget": "High",
+        "activities": [
+            "Culture",
+            "Adventure"
+        ],
+        "region": "North America",
+        "description": "Description for Destination 19.",
+        "best_time": "Month 3 to Month 8",
+        "image": "https://example.com/destination_19.jpg",
+        "fun_fact": "Fun fact about Destination 19.",
+        "average_cost": 2000
+    },
+    {
+        "name": "Destination 20",
+        "weather": "Warm",
+        "budget": "Low",
+        "activities": [
+            "Adventure",
+            "Relaxation"
+        ],
+        "region": "South America",
+        "description": "Description for Destination 20.",
+        "best_time": "Month 4 to Month 9",
+        "image": "https://example.com/destination_20.jpg",
+        "fun_fact": "Fun fact about Destination 20.",
+        "average_cost": 1000
+    },
+    {
+        "name": "Destination 21",
+        "weather": "Cool",
+        "budget": "Medium",
+        "activities": [
+            "Relaxation",
+            "Culture"
+        ],
+        "region": "Africa",
+        "description": "Description for Destination 21.",
+        "best_time": "Month 5 to Month 10",
+        "image": "https://example.com/destination_21.jpg",
+        "fun_fact": "Fun fact about Destination 21.",
+        "average_cost": 1500
+    },
+    {
+        "name": "Destination 22",
+        "weather": "Snowy",
+        "budget": "High",
+        "activities": [
+            "Culture",
+            "Adventure"
+        ],
+        "region": "Oceania",
+        "description": "Description for Destination 22.",
+        "best_time": "Month 6 to Month 11",
+        "image": "https://example.com/destination_22.jpg",
+        "fun_fact": "Fun fact about Destination 22.",
+        "average_cost": 2000
+    },
+    {
+        "name": "Destination 23",
+        "weather": "Warm",
+        "budget": "Low",
+        "activities": [
+            "Adventure",
+            "Relaxation"
+        ],
+        "region": "Asia",
+        "description": "Description for Destination 23.",
+        "best_time": "Month 7 to Month 12",
+        "image": "https://example.com/destination_23.jpg",
+        "fun_fact": "Fun fact about Destination 23.",
+        "average_cost": 1000
+    },
+    {
+        "name": "Destination 24",
+        "weather": "Cool",
+        "budget": "Medium",
+        "activities": [
+            "Relaxation",
+            "Culture"
+        ],
+        "region": "Europe",
+        "description": "Description for Destination 24.",
+        "best_time": "Month 8 to Month 1",
+        "image": "https://example.com/destination_24.jpg",
+        "fun_fact": "Fun fact about Destination 24.",
+        "average_cost": 1500
+    },
+    {
+        "name": "Destination 25",
+        "weather": "Snowy",
+        "budget": "High",
+        "activities": [
+            "Culture",
+            "Adventure"
+        ],
+        "region": "North America",
+        "description": "Description for Destination 25.",
+        "best_time": "Month 9 to Month 2",
+        "image": "https://example.com/destination_25.jpg",
+        "fun_fact": "Fun fact about Destination 25.",
+        "average_cost": 2000
+    },
+    {
+        "name": "Destination 26",
+        "weather": "Warm",
+        "budget": "Low",
+        "activities": [
+            "Adventure",
+            "Relaxation"
+        ],
+        "region": "South America",
+        "description": "Description for Destination 26.",
+        "best_time": "Month 10 to Month 3",
+        "image": "https://example.com/destination_26.jpg",
+        "fun_fact": "Fun fact about Destination 26.",
+        "average_cost": 1000
+    },
+    {
+        "name": "Destination 27",
+        "weather": "Cool",
+        "budget": "Medium",
+        "activities": [
+            "Relaxation",
+            "Culture"
+        ],
+        "region": "Africa",
+        "description": "Description for Destination 27.",
+        "best_time": "Month 11 to Month 4",
+        "image": "https://example.com/destination_27.jpg",
+        "fun_fact": "Fun fact about Destination 27.",
+        "average_cost": 1500
+    },
+    {
+        "name": "Destination 28",
+        "weather": "Snowy",
+        "budget": "High",
+        "activities": [
+            "Culture",
+            "Adventure"
+        ],
+        "region": "Oceania",
+        "description": "Description for Destination 28.",
+        "best_time": "Month 12 to Month 5",
+        "image": "https://example.com/destination_28.jpg",
+        "fun_fact": "Fun fact about Destination 28.",
+        "average_cost": 2000
+    },
+    {
+        "name": "Destination 29",
+        "weather": "Warm",
+        "budget": "Low",
+        "activities": [
+            "Adventure",
+            "Relaxation"
+        ],
+        "region": "Asia",
+        "description": "Description for Destination 29.",
+        "best_time": "Month 1 to Month 6",
+        "image": "https://example.com/destination_29.jpg",
+        "fun_fact": "Fun fact about Destination 29.",
+        "average_cost": 1000
+    },
+    {
+        "name": "Destination 30",
+        "weather": "Cool",
+        "budget": "Medium",
+        "activities": [
+            "Relaxation",
+            "Culture"
+        ],
+        "region": "Europe",
+        "description": "Description for Destination 30.",
+        "best_time": "Month 2 to Month 7",
+        "image": "https://example.com/destination_30.jpg",
+        "fun_fact": "Fun fact about Destination 30.",
+        "average_cost": 1500
+    }
+]
