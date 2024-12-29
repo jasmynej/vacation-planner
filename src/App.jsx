@@ -58,7 +58,9 @@ function App() {
                 vacations.map((v) => {
                     return (
                         <div key={name}>
+                            <img src={v.image}/>
                             {v.name}
+
                         </div>
                     )
                 })

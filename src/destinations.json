@@ -3,13 +3,9 @@
         "name": "Bali, Indonesia",
         "weather": "Warm",
         "budget": "Medium",
-        "activities": [
-            "Relaxation",
-            "Culture",
-            "Adventure"
-        ],
+        "activities": ["Relaxation", "Culture", "Adventure"],
         "region": "Asia",
-        "description": "A tropical paradise with beautiful beaches and rich cultural heritage.",
+        "description": "A tropical paradise known for stunning beaches, temples, and rice terraces.",
         "best_time": "April to October",
         "image": "https://example.com/bali.jpg",
         "fun_fact": "Bali has over 10,000 temples!",
@@ -19,25 +15,19 @@
         "name": "Reykjavik, Iceland",
         "weather": "Cool",
         "budget": "High",
-        "activities": [
-            "Adventure",
-            "Culture"
-        ],
+        "activities": ["Adventure", "Culture"],
         "region": "Europe",
         "description": "Home to glaciers, geysers, and the Northern Lights.",
         "best_time": "September to March",
         "image": "https://example.com/reykjavik.jpg",
-        "fun_fact": "Iceland uses geothermal energy for nearly all electricity.",
+        "fun_fact": "Iceland uses geothermal energy for nearly all its electricity.",
         "average_cost": 3000
     },
     {
         "name": "Kyoto, Japan",
         "weather": "Cool",
         "budget": "Medium",
-        "activities": [
-            "Culture",
-            "Relaxation"
-        ],
+        "activities": ["Culture", "Relaxation"],
         "region": "Asia",
         "description": "Famous for its classical Buddhist temples and gardens.",
         "best_time": "March to May",
@@ -49,405 +39,204 @@
         "name": "Maui, Hawaii",
         "weather": "Warm",
         "budget": "High",
-        "activities": [
-            "Relaxation",
-            "Adventure"
-        ],
+        "activities": ["Relaxation", "Adventure"],
         "region": "North America",
         "description": "Stunning beaches, waterfalls, and outdoor adventures await.",
         "best_time": "April to November",
         "image": "https://example.com/maui.jpg",
-        "fun_fact": "Maui is known for its world-famous sunrise at Haleakal\u0101.",
+        "fun_fact": "Maui is known for its world-famous sunrise at Haleakalā.",
         "average_cost": 3500
     },
     {
-        "name": "Destination 5",
+        "name": "Cape Town, South Africa",
         "weather": "Warm",
-        "budget": "Low",
-        "activities": [
-            "Adventure",
-            "Relaxation"
-        ],
-        "region": "Asia",
-        "description": "Description for Destination 5.",
-        "best_time": "Month 1 to Month 6",
-        "image": "https://example.com/destination_5.jpg",
-        "fun_fact": "Fun fact about Destination 5.",
-        "average_cost": 1000
-    },
-    {
-        "name": "Destination 6",
-        "weather": "Cool",
         "budget": "Medium",
-        "activities": [
-            "Relaxation",
-            "Culture"
-        ],
-        "region": "Europe",
-        "description": "Description for Destination 6.",
-        "best_time": "Month 2 to Month 7",
-        "image": "https://example.com/destination_6.jpg",
-        "fun_fact": "Fun fact about Destination 6.",
-        "average_cost": 1500
-    },
-    {
-        "name": "Destination 7",
-        "weather": "Snowy",
-        "budget": "High",
-        "activities": [
-            "Culture",
-            "Adventure"
-        ],
-        "region": "North America",
-        "description": "Description for Destination 7.",
-        "best_time": "Month 3 to Month 8",
-        "image": "https://example.com/destination_7.jpg",
-        "fun_fact": "Fun fact about Destination 7.",
-        "average_cost": 2000
-    },
-    {
-        "name": "Destination 8",
-        "weather": "Warm",
-        "budget": "Low",
-        "activities": [
-            "Adventure",
-            "Relaxation"
-        ],
-        "region": "South America",
-        "description": "Description for Destination 8.",
-        "best_time": "Month 4 to Month 9",
-        "image": "https://example.com/destination_8.jpg",
-        "fun_fact": "Fun fact about Destination 8.",
-        "average_cost": 1000
-    },
-    {
-        "name": "Destination 9",
-        "weather": "Cool",
-        "budget": "Medium",
-        "activities": [
-            "Relaxation",
-            "Culture"
-        ],
+        "activities": ["Culture", "Adventure"],
         "region": "Africa",
-        "description": "Description for Destination 9.",
-        "best_time": "Month 5 to Month 10",
-        "image": "https://example.com/destination_9.jpg",
-        "fun_fact": "Fun fact about Destination 9.",
-        "average_cost": 1500
-    },
-    {
-        "name": "Destination 10",
-        "weather": "Snowy",
-        "budget": "High",
-        "activities": [
-            "Culture",
-            "Adventure"
-        ],
-        "region": "Oceania",
-        "description": "Description for Destination 10.",
-        "best_time": "Month 6 to Month 11",
-        "image": "https://example.com/destination_10.jpg",
-        "fun_fact": "Fun fact about Destination 10.",
+        "description": "A vibrant city with stunning views of Table Mountain and unique wildlife.",
+        "best_time": "November to February",
+        "image": "https://example.com/capetown.jpg",
+        "fun_fact": "Cape Town is one of the world's most biodiverse regions.",
         "average_cost": 2000
     },
     {
-        "name": "Destination 11",
-        "weather": "Warm",
-        "budget": "Low",
-        "activities": [
-            "Adventure",
-            "Relaxation"
-        ],
-        "region": "Asia",
-        "description": "Description for Destination 11.",
-        "best_time": "Month 7 to Month 12",
-        "image": "https://example.com/destination_11.jpg",
-        "fun_fact": "Fun fact about Destination 11.",
-        "average_cost": 1000
-    },
-    {
-        "name": "Destination 12",
+        "name": "Queenstown, New Zealand",
         "weather": "Cool",
-        "budget": "Medium",
-        "activities": [
-            "Relaxation",
-            "Culture"
-        ],
-        "region": "Europe",
-        "description": "Description for Destination 12.",
-        "best_time": "Month 8 to Month 1",
-        "image": "https://example.com/destination_12.jpg",
-        "fun_fact": "Fun fact about Destination 12.",
-        "average_cost": 1500
-    },
-    {
-        "name": "Destination 13",
-        "weather": "Snowy",
         "budget": "High",
-        "activities": [
-            "Culture",
-            "Adventure"
-        ],
-        "region": "North America",
-        "description": "Description for Destination 13.",
-        "best_time": "Month 9 to Month 2",
-        "image": "https://example.com/destination_13.jpg",
-        "fun_fact": "Fun fact about Destination 13.",
-        "average_cost": 2000
+        "activities": ["Adventure", "Relaxation"],
+        "region": "Oceania",
+        "description": "Known as the adventure capital of the world with activities like bungee jumping and skiing.",
+        "best_time": "June to September",
+        "image": "https://example.com/queenstown.jpg",
+        "fun_fact": "The world's first commercial bungee jump was in Queenstown!",
+        "average_cost": 3000
     },
     {
-        "name": "Destination 14",
-        "weather": "Warm",
+        "name": "Cusco, Peru",
+        "weather": "Cool",
         "budget": "Low",
-        "activities": [
-            "Adventure",
-            "Relaxation"
-        ],
+        "activities": ["Culture", "Adventure"],
         "region": "South America",
-        "description": "Description for Destination 14.",
-        "best_time": "Month 10 to Month 3",
-        "image": "https://example.com/destination_14.jpg",
-        "fun_fact": "Fun fact about Destination 14.",
+        "description": "The gateway to Machu Picchu and rich in Incan history.",
+        "best_time": "May to September",
+        "image": "https://example.com/cusco.jpg",
+        "fun_fact": "Cusco was the historic capital of the Inca Empire.",
         "average_cost": 1000
     },
     {
-        "name": "Destination 15",
-        "weather": "Cool",
+        "name": "Santorini, Greece",
+        "weather": "Warm",
         "budget": "Medium",
-        "activities": [
-            "Relaxation",
-            "Culture"
-        ],
-        "region": "Africa",
-        "description": "Description for Destination 15.",
-        "best_time": "Month 11 to Month 4",
-        "image": "https://example.com/destination_15.jpg",
-        "fun_fact": "Fun fact about Destination 15.",
-        "average_cost": 1500
-    },
-    {
-        "name": "Destination 16",
-        "weather": "Snowy",
-        "budget": "High",
-        "activities": [
-            "Culture",
-            "Adventure"
-        ],
-        "region": "Oceania",
-        "description": "Description for Destination 16.",
-        "best_time": "Month 12 to Month 5",
-        "image": "https://example.com/destination_16.jpg",
-        "fun_fact": "Fun fact about Destination 16.",
+        "activities": ["Relaxation", "Culture"],
+        "region": "Europe",
+        "description": "Known for its iconic white-washed buildings and stunning sunsets.",
+        "best_time": "May to October",
+        "image": "https://example.com/santorini.jpg",
+        "fun_fact": "Santorini was formed by a volcanic eruption.",
         "average_cost": 2000
     },
     {
-        "name": "Destination 17",
-        "weather": "Warm",
-        "budget": "Low",
-        "activities": [
-            "Adventure",
-            "Relaxation"
-        ],
-        "region": "Asia",
-        "description": "Description for Destination 17.",
-        "best_time": "Month 1 to Month 6",
-        "image": "https://example.com/destination_17.jpg",
-        "fun_fact": "Fun fact about Destination 17.",
-        "average_cost": 1000
-    },
-    {
-        "name": "Destination 18",
-        "weather": "Cool",
-        "budget": "Medium",
-        "activities": [
-            "Relaxation",
-            "Culture"
-        ],
-        "region": "Europe",
-        "description": "Description for Destination 18.",
-        "best_time": "Month 2 to Month 7",
-        "image": "https://example.com/destination_18.jpg",
-        "fun_fact": "Fun fact about Destination 18.",
-        "average_cost": 1500
-    },
-    {
-        "name": "Destination 19",
+        "name": "Banff, Canada",
         "weather": "Snowy",
-        "budget": "High",
-        "activities": [
-            "Culture",
-            "Adventure"
-        ],
+        "budget": "Medium",
+        "activities": ["Adventure", "Relaxation"],
         "region": "North America",
-        "description": "Description for Destination 19.",
-        "best_time": "Month 3 to Month 8",
-        "image": "https://example.com/destination_19.jpg",
-        "fun_fact": "Fun fact about Destination 19.",
-        "average_cost": 2000
+        "description": "A stunning mountain town in the Canadian Rockies, perfect for skiing and hiking.",
+        "best_time": "December to February",
+        "image": "https://example.com/banff.jpg",
+        "fun_fact": "Banff National Park is Canada's oldest national park.",
+        "average_cost": 1800
     },
     {
-        "name": "Destination 20",
+        "name": "Marrakech, Morocco",
         "weather": "Warm",
         "budget": "Low",
-        "activities": [
-            "Adventure",
-            "Relaxation"
-        ],
-        "region": "South America",
-        "description": "Description for Destination 20.",
-        "best_time": "Month 4 to Month 9",
-        "image": "https://example.com/destination_20.jpg",
-        "fun_fact": "Fun fact about Destination 20.",
-        "average_cost": 1000
-    },
-    {
-        "name": "Destination 21",
-        "weather": "Cool",
-        "budget": "Medium",
-        "activities": [
-            "Relaxation",
-            "Culture"
-        ],
+        "activities": ["Culture", "Adventure"],
         "region": "Africa",
-        "description": "Description for Destination 21.",
-        "best_time": "Month 5 to Month 10",
-        "image": "https://example.com/destination_21.jpg",
-        "fun_fact": "Fun fact about Destination 21.",
-        "average_cost": 1500
+        "description": "A city of vibrant souks, stunning palaces, and desert landscapes.",
+        "best_time": "March to May",
+        "image": "https://example.com/marrakech.jpg",
+        "fun_fact": "Marrakech is known as the 'Red City' because of its red sandstone buildings.",
+        "average_cost": 1200
     },
     {
-        "name": "Destination 22",
-        "weather": "Snowy",
+        "name": "Phuket, Thailand",
+        "weather": "Warm",
+        "budget": "Low",
+        "activities": ["Relaxation", "Adventure"],
+        "region": "Asia",
+        "description": "Famous for its stunning beaches, vibrant nightlife, and clear blue waters.",
+        "best_time": "November to February",
+        "image": "https://example.com/phuket.jpg",
+        "fun_fact": "Phuket is home to one of the world's largest Buddha statues.",
+        "average_cost": 1200
+    },
+    {
+        "name": "Paris, France",
+        "weather": "Cool",
         "budget": "High",
-        "activities": [
-            "Culture",
-            "Adventure"
-        ],
+        "activities": ["Culture", "Relaxation"],
+        "region": "Europe",
+        "description": "Known as the City of Light, Paris is home to iconic landmarks like the Eiffel Tower and the Louvre.",
+        "best_time": "April to June",
+        "image": "https://example.com/paris.jpg",
+        "fun_fact": "Paris was originally a Roman city called Lutetia.",
+        "average_cost": 3000
+    },
+    {
+        "name": "Sydney, Australia",
+        "weather": "Warm",
+        "budget": "Medium",
+        "activities": ["Adventure", "Culture"],
         "region": "Oceania",
-        "description": "Description for Destination 22.",
-        "best_time": "Month 6 to Month 11",
-        "image": "https://example.com/destination_22.jpg",
-        "fun_fact": "Fun fact about Destination 22.",
+        "description": "Home to the Sydney Opera House and Bondi Beach.",
+        "best_time": "September to November",
+        "image": "https://example.com/sydney.jpg",
+        "fun_fact": "Sydney is built around the largest natural harbor in the world.",
+        "average_cost": 2500
+    },
+    {
+        "name": "Tokyo, Japan",
+        "weather": "Cool",
+        "budget": "High",
+        "activities": ["Culture", "Adventure"],
+        "region": "Asia",
+        "description": "A bustling metropolis blending modern innovation with traditional culture.",
+        "best_time": "March to May",
+        "image": "https://example.com/tokyo.jpg",
+        "fun_fact": "Tokyo has the world's busiest pedestrian crossing, Shibuya Crossing.",
+        "average_cost": 3000
+    },
+    {
+        "name": "Florence, Italy",
+        "weather": "Cool",
+        "budget": "Medium",
+        "activities": ["Culture", "Relaxation"],
+        "region": "Europe",
+        "description": "Renowned as the birthplace of the Renaissance, with incredible art and architecture.",
+        "best_time": "April to June",
+        "image": "https://example.com/florence.jpg",
+        "fun_fact": "The entire city center of Florence is a UNESCO World Heritage Site.",
+        "average_cost": 2200
+    },
+    {
+        "name": "Rio de Janeiro, Brazil",
+        "weather": "Warm",
+        "budget": "Medium",
+        "activities": ["Adventure", "Relaxation"],
+        "region": "South America",
+        "description": "Famous for its Carnival festival, Christ the Redeemer statue, and stunning beaches.",
+        "best_time": "December to March",
+        "image": "https://example.com/rio.jpg",
+        "fun_fact": "Rio's Carnival is the largest carnival in the world.",
         "average_cost": 2000
     },
     {
-        "name": "Destination 23",
-        "weather": "Warm",
-        "budget": "Low",
-        "activities": [
-            "Adventure",
-            "Relaxation"
-        ],
-        "region": "Asia",
-        "description": "Description for Destination 23.",
-        "best_time": "Month 7 to Month 12",
-        "image": "https://example.com/destination_23.jpg",
-        "fun_fact": "Fun fact about Destination 23.",
-        "average_cost": 1000
-    },
-    {
-        "name": "Destination 24",
+        "name": "Amsterdam, Netherlands",
         "weather": "Cool",
         "budget": "Medium",
-        "activities": [
-            "Relaxation",
-            "Culture"
-        ],
+        "activities": ["Culture", "Relaxation"],
         "region": "Europe",
-        "description": "Description for Destination 24.",
-        "best_time": "Month 8 to Month 1",
-        "image": "https://example.com/destination_24.jpg",
-        "fun_fact": "Fun fact about Destination 24.",
-        "average_cost": 1500
+        "description": "Known for its picturesque canals, historic museums, and tulip fields.",
+        "best_time": "April to May",
+        "image": "https://example.com/amsterdam.jpg",
+        "fun_fact": "Amsterdam has more bikes than people!",
+        "average_cost": 1800
     },
     {
-        "name": "Destination 25",
-        "weather": "Snowy",
-        "budget": "High",
-        "activities": [
-            "Culture",
-            "Adventure"
-        ],
+        "name": "Cape Cod, USA",
+        "weather": "Cool",
+        "budget": "Low",
+        "activities": ["Relaxation", "Adventure"],
         "region": "North America",
-        "description": "Description for Destination 25.",
-        "best_time": "Month 9 to Month 2",
-        "image": "https://example.com/destination_25.jpg",
-        "fun_fact": "Fun fact about Destination 25.",
-        "average_cost": 2000
+        "description": "A coastal getaway known for its charming villages and sandy beaches.",
+        "best_time": "June to September",
+        "image": "https://example.com/capecod.jpg",
+        "fun_fact": "Cape Cod has some of the oldest lighthouses in the United States.",
+        "average_cost": 1400
     },
     {
-        "name": "Destination 26",
+        "name": "Petra, Jordan",
         "weather": "Warm",
-        "budget": "Low",
-        "activities": [
-            "Adventure",
-            "Relaxation"
-        ],
-        "region": "South America",
-        "description": "Description for Destination 26.",
-        "best_time": "Month 10 to Month 3",
-        "image": "https://example.com/destination_26.jpg",
-        "fun_fact": "Fun fact about Destination 26.",
-        "average_cost": 1000
-    },
-    {
-        "name": "Destination 27",
-        "weather": "Cool",
         "budget": "Medium",
-        "activities": [
-            "Relaxation",
-            "Culture"
-        ],
-        "region": "Africa",
-        "description": "Description for Destination 27.",
-        "best_time": "Month 11 to Month 4",
-        "image": "https://example.com/destination_27.jpg",
-        "fun_fact": "Fun fact about Destination 27.",
-        "average_cost": 1500
-    },
-    {
-        "name": "Destination 28",
-        "weather": "Snowy",
-        "budget": "High",
-        "activities": [
-            "Culture",
-            "Adventure"
-        ],
-        "region": "Oceania",
-        "description": "Description for Destination 28.",
-        "best_time": "Month 12 to Month 5",
-        "image": "https://example.com/destination_28.jpg",
-        "fun_fact": "Fun fact about Destination 28.",
-        "average_cost": 2000
-    },
-    {
-        "name": "Destination 29",
-        "weather": "Warm",
-        "budget": "Low",
-        "activities": [
-            "Adventure",
-            "Relaxation"
-        ],
+        "activities": ["Culture", "Adventure"],
         "region": "Asia",
-        "description": "Description for Destination 29.",
-        "best_time": "Month 1 to Month 6",
-        "image": "https://example.com/destination_29.jpg",
-        "fun_fact": "Fun fact about Destination 29.",
-        "average_cost": 1000
+        "description": "An ancient city carved into rose-red cliffs, known as the 'Lost City.'",
+        "best_time": "October to April",
+        "image": "https://example.com/petra.jpg",
+        "fun_fact": "Petra was featured in the movie Indiana Jones and the Last Crusade.",
+        "average_cost": 2000
     },
     {
-        "name": "Destination 30",
-        "weather": "Cool",
-        "budget": "Medium",
-        "activities": [
-            "Relaxation",
-            "Culture"
-        ],
-        "region": "Europe",
-        "description": "Description for Destination 30.",
-        "best_time": "Month 2 to Month 7",
-        "image": "https://example.com/destination_30.jpg",
-        "fun_fact": "Fun fact about Destination 30.",
-        "average_cost": 1500
+        "name": "Galápagos Islands, Ecuador",
+        "weather": "Warm",
+        "budget": "High",
+        "activities": ["Adventure", "Relaxation"],
+        "region": "South America",
+        "description": "Famous for its unique wildlife and volcanic landscapes.",
+        "best_time": "June to November",
+        "image": "https://example.com/galapagos.jpg",
+        "fun_fact": "The Galápagos inspired Charles Darwin's theory of evolution.",
+        "average_cost": 3500
     }
 ]
