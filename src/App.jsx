@@ -1,6 +1,8 @@
 import './App.css'
 import {useState} from "react";
 import {searchVacations} from "./vacationPlanning.js";
+import DestinationCard from "./components/DestinationCard.jsx";
+import {Outlet} from "react-router";
 
 function App() {
     const [vacationParams, setVacationParams] = useState({
@@ -24,6 +26,7 @@ function App() {
     }
   return (
     <div className="container">
+        <Outlet/>
         <div className="header">
             <h1>Vacation Planner</h1>
         </div>
@@ -57,11 +60,7 @@ function App() {
             {
                 vacations.map((v) => {
                     return (
-                        <div key={name}>
-                            <img src={v.image}/>
-                            {v.name}
-
-                        </div>
+                       <DestinationCard destination={v} key={v.name}/>
                     )
                 })
             }

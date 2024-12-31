@@ -1,5 +1,6 @@
 [
     {
+        "id": "bali",
         "name": "Bali, Indonesia",
         "weather": "Warm",
         "budget": "Medium",
@@ -7,11 +8,12 @@
         "region": "Asia",
         "description": "A tropical paradise known for stunning beaches, temples, and rice terraces.",
         "best_time": "April to October",
-        "image": "https://example.com/bali.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/bali.jpg",
         "fun_fact": "Bali has over 10,000 temples!",
         "average_cost": 1500
     },
     {
+        "id": "reyk",
         "name": "Reykjavik, Iceland",
         "weather": "Cool",
         "budget": "High",
@@ -19,11 +21,12 @@
         "region": "Europe",
         "description": "Home to glaciers, geysers, and the Northern Lights.",
         "best_time": "September to March",
-        "image": "https://example.com/reykjavik.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/reyki.jpeg",
         "fun_fact": "Iceland uses geothermal energy for nearly all its electricity.",
         "average_cost": 3000
     },
     {
+        "id": "kyoto",
         "name": "Kyoto, Japan",
         "weather": "Cool",
         "budget": "Medium",
@@ -31,11 +34,12 @@
         "region": "Asia",
         "description": "Famous for its classical Buddhist temples and gardens.",
         "best_time": "March to May",
-        "image": "https://example.com/kyoto.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/kyoto.jpg",
         "fun_fact": "Kyoto has over 1,600 Buddhist temples!",
         "average_cost": 2500
     },
     {
+        "id": "maui",
         "name": "Maui, Hawaii",
         "weather": "Warm",
         "budget": "High",
@@ -43,11 +47,12 @@
         "region": "North America",
         "description": "Stunning beaches, waterfalls, and outdoor adventures await.",
         "best_time": "April to November",
-        "image": "https://example.com/maui.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/maui.jpg",
         "fun_fact": "Maui is known for its world-famous sunrise at Haleakalā.",
         "average_cost": 3500
     },
     {
+        "id": "cape-town",
         "name": "Cape Town, South Africa",
         "weather": "Warm",
         "budget": "Medium",
@@ -55,11 +60,12 @@
         "region": "Africa",
         "description": "A vibrant city with stunning views of Table Mountain and unique wildlife.",
         "best_time": "November to February",
-        "image": "https://example.com/capetown.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/cape-town.jpeg",
         "fun_fact": "Cape Town is one of the world's most biodiverse regions.",
         "average_cost": 2000
     },
     {
+        "id": "qtown",
         "name": "Queenstown, New Zealand",
         "weather": "Cool",
         "budget": "High",
@@ -67,11 +73,12 @@
         "region": "Oceania",
         "description": "Known as the adventure capital of the world with activities like bungee jumping and skiing.",
         "best_time": "June to September",
-        "image": "https://example.com/queenstown.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/qtown.jpg",
         "fun_fact": "The world's first commercial bungee jump was in Queenstown!",
         "average_cost": 3000
     },
     {
+        "id": "cusco",
         "name": "Cusco, Peru",
         "weather": "Cool",
         "budget": "Low",
@@ -79,11 +86,12 @@
         "region": "South America",
         "description": "The gateway to Machu Picchu and rich in Incan history.",
         "best_time": "May to September",
-        "image": "https://example.com/cusco.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/cusco.jpg",
         "fun_fact": "Cusco was the historic capital of the Inca Empire.",
         "average_cost": 1000
     },
     {
+        "id": "santorini",
         "name": "Santorini, Greece",
         "weather": "Warm",
         "budget": "Medium",
@@ -91,11 +99,12 @@
         "region": "Europe",
         "description": "Known for its iconic white-washed buildings and stunning sunsets.",
         "best_time": "May to October",
-        "image": "https://example.com/santorini.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/santorini.jpg",
         "fun_fact": "Santorini was formed by a volcanic eruption.",
         "average_cost": 2000
     },
     {
+        "id": "banff",
         "name": "Banff, Canada",
         "weather": "Snowy",
         "budget": "Medium",
@@ -103,11 +112,12 @@
         "region": "North America",
         "description": "A stunning mountain town in the Canadian Rockies, perfect for skiing and hiking.",
         "best_time": "December to February",
-        "image": "https://example.com/banff.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/banff.jpg",
         "fun_fact": "Banff National Park is Canada's oldest national park.",
         "average_cost": 1800
     },
     {
+        "id": "marrkch",
         "name": "Marrakech, Morocco",
         "weather": "Warm",
         "budget": "Low",
@@ -115,11 +125,12 @@
         "region": "Africa",
         "description": "A city of vibrant souks, stunning palaces, and desert landscapes.",
         "best_time": "March to May",
-        "image": "https://example.com/marrakech.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/marrkch.jpg",
         "fun_fact": "Marrakech is known as the 'Red City' because of its red sandstone buildings.",
         "average_cost": 1200
     },
     {
+        "id": "phuket",
         "name": "Phuket, Thailand",
         "weather": "Warm",
         "budget": "Low",
@@ -127,11 +138,12 @@
         "region": "Asia",
         "description": "Famous for its stunning beaches, vibrant nightlife, and clear blue waters.",
         "best_time": "November to February",
-        "image": "https://example.com/phuket.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/phuket.jpg",
         "fun_fact": "Phuket is home to one of the world's largest Buddha statues.",
         "average_cost": 1200
     },
     {
+        "id": "paris",
         "name": "Paris, France",
         "weather": "Cool",
         "budget": "High",
@@ -139,11 +151,12 @@
         "region": "Europe",
         "description": "Known as the City of Light, Paris is home to iconic landmarks like the Eiffel Tower and the Louvre.",
         "best_time": "April to June",
-        "image": "https://example.com/paris.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/paris.jpg",
         "fun_fact": "Paris was originally a Roman city called Lutetia.",
         "average_cost": 3000
     },
     {
+        "id": "sydney",
         "name": "Sydney, Australia",
         "weather": "Warm",
         "budget": "Medium",
@@ -151,11 +164,12 @@
         "region": "Oceania",
         "description": "Home to the Sydney Opera House and Bondi Beach.",
         "best_time": "September to November",
-        "image": "https://example.com/sydney.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/sydney.jpg",
         "fun_fact": "Sydney is built around the largest natural harbor in the world.",
         "average_cost": 2500
     },
     {
+        "id": "tokyo",
         "name": "Tokyo, Japan",
         "weather": "Cool",
         "budget": "High",
@@ -163,11 +177,12 @@
         "region": "Asia",
         "description": "A bustling metropolis blending modern innovation with traditional culture.",
         "best_time": "March to May",
-        "image": "https://example.com/tokyo.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/tokyo.jpg",
         "fun_fact": "Tokyo has the world's busiest pedestrian crossing, Shibuya Crossing.",
         "average_cost": 3000
     },
     {
+        "id": "florence",
         "name": "Florence, Italy",
         "weather": "Cool",
         "budget": "Medium",
@@ -175,11 +190,12 @@
         "region": "Europe",
         "description": "Renowned as the birthplace of the Renaissance, with incredible art and architecture.",
         "best_time": "April to June",
-        "image": "https://example.com/florence.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/florence.jpg",
         "fun_fact": "The entire city center of Florence is a UNESCO World Heritage Site.",
         "average_cost": 2200
     },
     {
+        "id": "rio",
         "name": "Rio de Janeiro, Brazil",
         "weather": "Warm",
         "budget": "Medium",
@@ -187,11 +203,12 @@
         "region": "South America",
         "description": "Famous for its Carnival festival, Christ the Redeemer statue, and stunning beaches.",
         "best_time": "December to March",
-        "image": "https://example.com/rio.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/rio.jpg",
         "fun_fact": "Rio's Carnival is the largest carnival in the world.",
         "average_cost": 2000
     },
     {
+        "id": "amstdam",
         "name": "Amsterdam, Netherlands",
         "weather": "Cool",
         "budget": "Medium",
@@ -199,11 +216,12 @@
         "region": "Europe",
         "description": "Known for its picturesque canals, historic museums, and tulip fields.",
         "best_time": "April to May",
-        "image": "https://example.com/amsterdam.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/amstdam.jpg",
         "fun_fact": "Amsterdam has more bikes than people!",
         "average_cost": 1800
     },
     {
+        "id": "cape-cod",
         "name": "Cape Cod, USA",
         "weather": "Cool",
         "budget": "Low",
@@ -211,11 +229,12 @@
         "region": "North America",
         "description": "A coastal getaway known for its charming villages and sandy beaches.",
         "best_time": "June to September",
-        "image": "https://example.com/capecod.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/cape-cod.jpg",
         "fun_fact": "Cape Cod has some of the oldest lighthouses in the United States.",
         "average_cost": 1400
     },
     {
+        "id": "petra",
         "name": "Petra, Jordan",
         "weather": "Warm",
         "budget": "Medium",
@@ -223,11 +242,12 @@
         "region": "Asia",
         "description": "An ancient city carved into rose-red cliffs, known as the 'Lost City.'",
         "best_time": "October to April",
-        "image": "https://example.com/petra.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/petra.jpg",
         "fun_fact": "Petra was featured in the movie Indiana Jones and the Last Crusade.",
         "average_cost": 2000
     },
     {
+        "id": "galpgos",
         "name": "Galápagos Islands, Ecuador",
         "weather": "Warm",
         "budget": "High",
@@ -235,7 +255,7 @@
         "region": "South America",
         "description": "Famous for its unique wildlife and volcanic landscapes.",
         "best_time": "June to November",
-        "image": "https://example.com/galapagos.jpg",
+        "image": "https://voya-travel-app.s3.us-east-1.amazonaws.com/destinations/galpgos.jpg",
         "fun_fact": "The Galápagos inspired Charles Darwin's theory of evolution.",
         "average_cost": 3500
     }

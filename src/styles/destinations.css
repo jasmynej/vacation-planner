@@ -1,0 +1,52 @@
+.destination-card {
+    background-color: #fdfdfd;
+    padding: 10px;
+    min-width: 300px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.destination-card button {
+    background-color: #ff9389;
+    color: white;
+    transition: background-color ease-in-out .2s;
+}
+
+.destination-card button:hover {
+    background-color: #FF6F61;
+}
+
+.destination-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#close {
+    background-color: red;
+    position: absolute;
+    top:100px;
+    left:100px ;
+}
+
+.destination-modal-container{
+    background-color: white;
+    width: 75%;
+    height: 80%;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#destination-img {
+    width: 50%;
+}
