@@ -1,3 +1,5 @@
+
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -7,15 +9,55 @@
     flex-direction: column;
 }
 
+/* Shared styles for all viewports */
 .search-box {
     background-color: #fff5e5;
-    width: 50vw;
-    height: 30vh;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.search-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for small screens */
+@media (max-width: 768px) {
+    .search-box {
+        width: 70%;
+        height: 60vh;
+    }
+
+    .search-row {
+        flex-wrap: wrap;
+    }
+
+    form {
+        width: 80%;
+    }
+}
+
+/* Styles for larger screens */
+@media (min-width: 769px) {
+    .search-box {
+        width: 50vw;
+        height: 30vh;
+    }
+}
+
 
 label {
     font-size: 20px;
@@ -30,26 +72,12 @@ select {
     border-radius: 5px;
 }
 
-.search-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 10px;
-    width: 100%;
-    justify-content: center;
-}
 
 #budget {
     width: 70%;
     margin: 5px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 button {
     border: none;

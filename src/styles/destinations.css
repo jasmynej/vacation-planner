@@ -1,5 +1,5 @@
 .destination-card {
-    background-color: #fdfdfd;
+    background-color: #fcf0e8;
     padding: 10px;
     min-width: 300px;
     text-align: center;
@@ -35,18 +35,76 @@
     left:100px ;
 }
 
+.modal-header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin: 5px;
+}
+
 .destination-modal-container{
     background-color: white;
-    width: 75%;
+    width: 65%;
     height: 80%;
     z-index: 1000;
     display: flex;
     flex-direction: column;
     overflow: auto;
+    border-radius: 10px;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+}
+
+.activities {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.activities div {
+    background-color: #87CEEB;
+    padding: 8px;
+    border-radius: 5px;
 }
 
 #destination-img {
-    width: 50%;
+    width: 65%;
+}
+
+#sticker {
+    width: 15%;
+}
+
+#region {
+    font-size: 20px;
+    font-weight: lighter;
+}
+#identifier {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+@media (max-width: 768px) {
+    #destination-img {
+        width: 80%;
+    }
+
+    .destination-modal-container{
+        width: 80%;
+    }
+
+    #sticker {
+        width: 30%;
+    }
+
 }
