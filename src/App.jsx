@@ -1,24 +1,29 @@
 import './App.css'
 import {useState} from "react";
 import {searchVacations} from "./vacationPlanning.js";
+import {getMinMaxAverageCost} from "./api/destinationApi.js";
 import DestinationCard from "./components/DestinationCard.jsx";
 import {Outlet} from "react-router";
-import {useNavigate} from "react-router";
 
 function App() {
     const [vacationParams, setVacationParams] = useState({
         "weather":"Warm",
         "activity": "Relaxation",
-        "budget": 5
+        "budget": 100
     })
     const [vacations, setVacations] = useState([])
-    let navigate = useNavigate()
+    const [budget, setBudget] = useState(2000)
+    const minMaxAverageCost = getMinMaxAverageCost()
 
     const formChange = (event) => {
         setVacationParams((vacationParams) => ({
             ...vacationParams,
             [event.target.name]: event.target.value
         }));
+    }
+
+    const handleBudgetChange = (event) => {
+        setBudget(event.target.value)
     }
 
     const submitSearch = (event) => {
@@ -51,11 +56,22 @@ function App() {
                     </select>
                 </div>
                 <div className="search-row">
-                    <label htmlFor="budget">Budget: </label>
-                    <input type="range" min="1" max="10" id="budget" defaultValue="2" name="budget" />
+                    <label htmlFor="budget">
+                        Budget:
+                        <br/>
+                        <p id="min-max">Min: {minMaxAverageCost[0]} Max: {minMaxAverageCost[1]}</p>
+                    </label>
+
+                    <input type="range"
+                           min={minMaxAverageCost[0]}
+                           max={minMaxAverageCost[1]}
+                           id="budget"
+                           defaultValue={budget}
+                           name="budget"
+                           onChange={handleBudgetChange}/>
+                    <p>Current Budget: {budget}</p>
                 </div>
                 <button id="search" type="submit">Get A Vacation</button>
-                <button onClick={() => navigate("/all")} id="all">See All Destinations</button>
             </form>
 
         </div>

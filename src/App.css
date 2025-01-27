@@ -34,6 +34,10 @@ form {
     align-items: center;
 }
 
+#min-max {
+    font-size: 14px;
+}
+
 /* Styles for small screens */
 @media (max-width: 768px) {
     .search-box {
@@ -53,9 +57,10 @@ form {
 /* Styles for larger screens */
 @media (min-width: 769px) {
     .search-box {
-        width: 50vw;
+        width: 60vw;
         height: 30vh;
     }
+
 }
 
 
@@ -97,7 +102,7 @@ button {
 
 #budget {
     -webkit-appearance: none;
-    width: 100%;
+    width: 90%;
     height: 25px;
     background: #ffffff;
     outline: none;

@@ -63,6 +63,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .activities {
@@ -94,6 +95,19 @@
     align-items: center;
     gap: 10px;
 }
+
+.fun-fact {
+    width: 65%;
+    background-color: #FF6F61;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.fun-fact span {
+    font-weight: bold;
+}
+
 @media (max-width: 768px) {
     #destination-img {
         width: 80%;

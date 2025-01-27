@@ -53,6 +53,9 @@ function DestinationModal(){
                     <div className="description">
                         <p>{destination.description}</p>
                     </div>
+                    <div className="fun-fact">
+                        <p> <span>Fun Fact: </span> {destination.fun_fact}</p>
+                    </div>
                 </div>
 
 

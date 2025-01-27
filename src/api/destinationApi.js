@@ -5,5 +5,11 @@ function getDestinationById(id){
     return destination[0]
 }
 
+function getMinMaxAverageCost() {
+    const averageCost = destinations.map(place => place.average_cost);
+    const minAvgCost = Math.min(...averageCost);
+    const maxAvgCost = Math.max(...averageCost);
 
-export {getDestinationById}
+    return [minAvgCost, maxAvgCost];
+}
+export {getDestinationById, getMinMaxAverageCost}
