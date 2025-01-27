@@ -7,7 +7,7 @@ function DestinationCard({destination}){
         <div className="destination-card">
            <h2>{destination.name}</h2>
             <p>{destination.region}</p>
-            <button id="learn-more" onClick={() => navigate(`${destination.id}`)}>Learn More</button>
+            <button id="learn-more" onClick={() => navigate(`/place/${destination.id}`)}>Learn More</button>
         </div>
     )
 }

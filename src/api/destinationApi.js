@@ -5,4 +5,5 @@ function getDestinationById(id){
     return destination[0]
 }
 
+
 export {getDestinationById}

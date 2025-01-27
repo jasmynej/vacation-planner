@@ -17,4 +17,7 @@ function searchVacations(temp, activity, budget){
     return curatedDestinations
 }
 
-export {searchVacations}
+function getAllVacations(){
+    return destinations;
+}
+export {searchVacations, getAllVacations}

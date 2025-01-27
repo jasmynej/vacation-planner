@@ -4,6 +4,7 @@ import {getDestinationById} from "../api/destinationApi.js";
 import beach from '../assets/summer.png'
 import cool from '../assets/placeholder.png'
 import snowy from '../assets/winter-sport.png'
+
 function DestinationModal(){
     let params = useParams()
     let navigate = useNavigate()
@@ -14,6 +15,9 @@ function DestinationModal(){
         "Cool":  cool,
         "Snowy": snowy
     }
+
+
+
     if (JSON.stringify(destination) === '{}'){
         return (
             <div className="destination-modal-overlay">
@@ -23,6 +27,8 @@ function DestinationModal(){
             </div>
         )
     }
+
+
     return (
         <div className="destination-modal-overlay">
             <div className="destination-modal-container">

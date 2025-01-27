@@ -3,6 +3,7 @@ import {useState} from "react";
 import {searchVacations} from "./vacationPlanning.js";
 import DestinationCard from "./components/DestinationCard.jsx";
 import {Outlet} from "react-router";
+import {useNavigate} from "react-router";
 
 function App() {
     const [vacationParams, setVacationParams] = useState({
@@ -11,6 +12,7 @@ function App() {
         "budget": 5
     })
     const [vacations, setVacations] = useState([])
+    let navigate = useNavigate()
 
     const formChange = (event) => {
         setVacationParams((vacationParams) => ({
@@ -53,6 +55,7 @@ function App() {
                     <input type="range" min="1" max="10" id="budget" defaultValue="2" name="budget" />
                 </div>
                 <button id="search" type="submit">Get A Vacation</button>
+                <button onClick={() => navigate("/all")} id="all">See All Destinations</button>
             </form>
 
         </div>

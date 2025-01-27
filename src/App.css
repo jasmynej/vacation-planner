@@ -126,3 +126,9 @@ button {
     align-items: center;
     justify-content: center;
 }
+
+#all {
+    margin: 10px;
+    font-size: 18px;
+    background-color: #ff9389;
+}
